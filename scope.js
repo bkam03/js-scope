@@ -6,7 +6,7 @@ function closeLid() {
 }
 
 function openLid() {
-  /* answer here */
+  isCookieJarOpen = true;
 }
 
 
