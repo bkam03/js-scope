@@ -31,8 +31,8 @@ function addMatrixElements(matrix) {
 
   for(var i = 0; i < matrix.length; i++) {
     /* fix counter variables in the second loop */
-    for(var i = 0; i < matrix[i].length; i++) {
-      result = result + matrix[i][i];
+    for(var ii = 0; ii < matrix[i].length; ii++) {
+      result = result + matrix[i][ii];
     }
   }
   return result;
